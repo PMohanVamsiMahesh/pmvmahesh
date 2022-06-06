@@ -87,7 +87,7 @@
                 </select><br>
                 <span id="errorgender" style="color: red;"></span>
 
-                <input type="text" name="Age" value="" placeholder="Enter Your Age" minlength="2" maxlength="2" required><br>
+                <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="Age" value="" placeholder="Enter Your Age" minlength="2" maxlength="2" required><br>
                 <span id="errorage" style="color: red;"></span>
 
                 <select class="" name="Course-Name" placeholder="Select your Course" required>
