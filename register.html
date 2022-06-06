@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+
+
+    <title>No Limits | Register Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/685e34285a.js" crossorigin="anonymous"></script>
+
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!--FAVICONS-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<!-- NAVIGATION BAR -->
+
+<body>
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="index.html"><img src="images/navlogo.jpg" alt="PERSONAL TRAINER" width="90px">
+                <img class="slogan" src="images/cover.png" alt="NO LIMITS" width="300px"></a>
+        </div>
+        <div class="nav_side" style="align-items: right;">
+            <a href="index.html">HOME</a> |
+            <a href="about.html">ABOUT</a> |
+            <a href="service.html">SERVICE</a> |
+            <a class="register" href="register.html">REGISTER</a>
+        </div>
+    </nav>
+
+
+    <!--**************registration*********-->
+    <div class="aboutus">
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <center>
+            <h1><span>REGISTRATION</span></h1>
+        </center>
+    </div>
+    <div class="register-page">
+    </div>
+
+    <div class="register-form">
+        <center>
+            <form onsubmit="return validation()" name="register-form" method="post">
+
+                <h2>!!!! REGISTRATION FORM !!!!</h2>
+                <input id="Name" type="text" name="Name" value="" placeholder="Your Name" minlength="3" maxlength="25" required><br>
+                <span id="errorname" style="color: red;"></span>
+
+                <input id="Email" type="email" name="Email" value="" placeholder="Your Email id" required><br>
+                <span id="erroremail" style="color: red;"></span>
+
+                <input id="Contact" onkeypress='return event.charCode >= 48 && event.charCode <= 57' type="tel" name="Contact" value="" placeholder="Your Contact Number" minlength="10" maxlength="10" required><br>
+                <span id="errorcontact" style="color: red;"></span>
+
+                <select class="" name="Gender" placeholder="Select your Gender" required>
+                    <option value="" >Select your Gender</option>
+                    <option>MALE</option>
+                    <option>FEMALE</option>
+                     <option>OTHERS</option>
+                </select><br>
+                <span id="errorgender" style="color: red;"></span>
+
+                <input type="text" name="Age" value="" placeholder="Enter Your Age" minlength="2" maxlength="2" required><br>
+                <span id="errorage" style="color: red;"></span>
+
+                <select class="" name="Course-Name" placeholder="Select your Course" required>
+                    <option value="">Select your Course/Plan</option>
+                    <option>21 DAY AB FIRE</option>
+                    <option>All in ARMS</option>
+                    <option>Flexibility & Wellbeing</option>
+                    <option>Strength Training</option>
+                    <option>Functional Training</option>
+                    <option>Balance and Stability Training</option>
+                    <option>Stamina & Mobility Training</option><option>Select your Course/Plan</option>
+                    <option>Dance Fitness</option>
+                    <option>Cardio & Abs Training</option>
+                    <option>Flexibility & Wellbeing</option>
+                    </select><br>
+                <span id="errorcourse" style="color: red;"></span>
+
+                <button type="submit" name="">Submit</button>
+                <button type="reset" name="">Reset</button>
+
+
+            </form>
+        </center>
+    </div>
+
+    <!--****************  take away of our program  **************-->
+    <div class=" takeaway ">
+
+        <h1>Takeaways of our online fitness training program</h1>
+        <br>
+        <p>After completing our online fitness training program, you not only achieve your fitness goal, but also get the takeaway knowledge. It will always be with you for a lifetime and you become self-dependent to take your fitness journey forward.</p>
+        <h3>Below are the 4 important takeaways:
+            <li>Most effective ways of doing exercises to get faster results</li>
+            <li>Right food choices for increasing performance</li>
+            <li>Supplements worth considering for improving performance</li>
+            <li>Scientific techniques for getting sustainable results</li>
+        </h3>
+        <br>
+        <p>We have helped thousands of people in reaching their fitness goals through our research-based workout and nutrition plans. Whatever is your fitness goal - lose extra pounds, build muscle & strength, get a lean body, run a marathon or become healthy
+            and fit! NO LIMITS Online Fitness Training will help you in achieving it.</p>
+        <br>
+        <center>
+            <a href="# ">
+                <h2>Register Now
+                    <span><i class="fa-solid fa-hand-point-up "></i></span>
+                </h2>
+            </a>
+        </center>
+        <br>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--***********************footer**********************-->
+
+    <footer>
+        <div class="footer_logo ">
+            <center>
+                <a href="index.html "><img src="images/navlogo.jpg " alt="PERSONAL TRAINER " width="150px " height="150px "></a>
+            </center>
+        </div>
+        <!--footer content-->
+        <div class="pages ">
+            <h3>More About us</h3>
+            <a href="index.html ">Home</a>
+            <a href="about.html ">About</a>
+            <a href="service.html ">Service</a>
+            <a href="https://www.decathlon.in/united-fitness/gym-equipment-21944?id=21944&type=c&utm_source=google&utm_term=gym%20equipment%20store%20online&utm_creative=Responsive_Search_Ads&utm_campaign=ADS_Fitness_High_Intent_Exact_Desktop&utm_device=c&utm_content=Search&utm_adgroup=Gym%20Equipment%20Store%20Online&utm_placement=&utm_medium=cpc&refinementList%5Btes_product_nature_en%5D%5B0%5D=dumbell&refinementList%5Btes_product_nature_en%5D%5B1%5D=weight%20plate&refinementList%5Btes_product_nature_en%5D%5B2%5D=exercise%20bike&refinementList%5Btes_product_nature_en%5D%5B3%5D=bar&refinementList%5Btes_product_nature_en%5D%5B4%5D=punch%20bag&refinementList%5Btes_product_nature_en%5D%5B5%5D=dumbells%20kit&refinementList%5Btes_product_nature_en%5D%5B6%5D=treadmill&refinementList%5Btes_product_nature_en%5D%5B7%5D=weightlifting%20bumper%20disc "
+                target="_blank ">Equipment</a>
+            <a href="# ">Register</a>
+        </div>
+        <div class="doc ">
+            <h3>Documents</h3>
+            <a href="# ">Privacy Policy</a>
+            <a href="# ">Terms of Use</a>
+            <a href="# ">Refund Policy</a>
+        </div>
+        <div class="social ">
+            <h3>Follow us @</h3>
+            <a href="https://www.facebook.com/indianstrengthcamp/ " target="_blank "><i class="fab fa-facebook-square "></i></a>
+            <a href="https://in.linkedin.com/in/akash-yaduvanshi-0a4631172 " target="_blank "><i class="fab fa-linkedin "></i></a>
+            <a href="https://www.instagram.com/indian.strength/?hl=en " target="_blank "><i class="fab fa-instagram "></i></a>
+            <a href="https://www.youtube.com/channel/UCHcRF5yh-wyShkR5OEy8hfA " target="_blank "><i class="fab fa-youtube "></i></a>
+        </div>
+        <div class="contact ">
+            <h3>Get In Touch With us!</h3>
+            <a href="https://wa.me/+918125893135 " target="_blank "><i class="fab fa-whatsapp "></i></a>
+            <a href="tel: +8125893135 " target="_blank "><i class="fas fa-phone "></i></a>
+            <a href="mailto:maheshponna001@gmail.com " target="_blank "><i id="whatsapp " class="fas fa-envelope "></i></a>
+
+        </div>
+        <hr>
+        <p>Copyright &copy; P.M.V.Mahesh, 2022 No Limits. All rights reserved</p>
+    </footer>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code. jquery.com/jquery-1.12.4.min.js " integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ " crossorigin="anonymous "></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js " integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd " crossorigin="anonymous "></script>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js " integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ " crossorigin="anonymous "></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js " integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd " crossorigin="anonymous "></script>
+
+
+
+    <script type="text/javascript ">
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxKu2CV1mpTCux-OtMMG-RS4HYG7BYtF653qDBAmQUNK44PSR1MtG0942bTc-en6Pea/exec'
+        const form = document.forms['register-form']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => alert("Thank you for Contacting us..! We will get back to You SOON... "))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
